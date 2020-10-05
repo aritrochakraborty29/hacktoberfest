@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" /> 
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Economy</title>
+</head>
+
+<body>
+    <div class="container">
+        <span class="text1">The Global </span>
+        <span class="text2">Economy</span>
+    </div>
+    <div class="intro">
+        <div class="btn-box">
+            <button id="btn1" onclick="openCHINA()"><i class="fa fa-jpy" aria-hidden="true"></i>China</button>
+            <button id="btn2" onclick="openGER()"><i class="fa fa-eur" aria-hidden="true"></i>
+                Germany</button>
+            <button id="btn3" onclick="openIND()"><i class="fa fa-inr" aria-hidden="true"></i>
+                India</button>
+        </div>
+        <div id="content1" class="content">
+            <div class="content-left">
+                <p>
+                    China's economy produced $25.3 trillion in 2018, according to the International Monetary Fund. That's based on purchasing power parity which takes into account the effect of exchange rates. That makes it the best method for comparing gross domestic product by country.It also makes China the world's largest economy. The European Union is second, at $22 trillion. The United States is third, producing $20.5 trillion.
+                </p>
+                <a href="https://www.thebalance.com/china-economy-facts-effect-on-us-economy-3306345">Know More!!</a>
+            </div>
+            <div class="content-right">
+                <img src="assets/china.jpg">
+            </div>
+        </div>
+        <div id="content2" class="content">
+            <div class="content-left">
+                <p>
+                    Germany's economy is expected to produce $4.2 trillion in 2019 as measured by nominal gross domestic product. The nation is the world's fourth-largest economy following the United States, China, and Japan. To compare GDP between countries, you must use purchasing power parity. Some say that Germany has been flourishing over the past 12 years, as Chancellor Angela Merkel has led the country to robust economic growth and record low unemployment rates.
+                </p>
+                <a href="https://www.thebalance.com/germany-s-economy-3306346">Know More!!</a>
+            </div>
+            <div class="content-right">
+                <img src="assets/germ.jpg">
+            </div>
+        </div>
+        <div id="content3" class="content">
+            <div class="content-left">
+                <p>
+                    India is the world's fourth-largest economy. It produced $9.4 trillion in goods and services in 2017. But it has a long way to go to beat the top three: China, with a production worth $23.1 trillion, the European Union with $19.9 trillion, and the United States with $17.4 trillion.India had rapid growth despite the Great Recession. It grew 6.7% in 2017, 7.1% in 2016 and 8% in 2015. From 2008 through 2014, it grew between 5% and 11%. That phenomenal growth rate has reduced poverty by 10% in the last decade. 
+                </p>
+                <a href="https://www.thebalance.com/india-s-economy-3306348">Know More!!</a>
+            </div>
+            <div class="content-right">
+                <img src="assets/india.jpg">
+            </div>
+        </div>
+    </div>
+    <script>
+        var content1=document.getElementById("content1");
+        var content2=document.getElementById("content2");
+        var content3=document.getElementById("content3");
+        var btn1=document.getElementById("btn1");
+        var btn2=document.getElementById("btn2");
+        var btn3=document.getElementById("btn3");
+        function openCHINA(){
+            content1.style.transform="translateX(0)";
+            content2.style.transform="translateX(100%)";
+            content3.style.transform="translateX(100%)";
+            btn1.style.color=" #FC1310";
+            btn2.style.color="#000";
+            btn3.style.color="#000";
+            content1.style.transitionDelay="0.3s";
+            content2.style.transitionDelay="0s";
+            content3.style.transitionDelay="0s";
+
+        }
+        function openGER(){
+            content1.style.transform="translateX(100%)";
+            content2.style.transform="translateX(0)";
+            content3.style.transform="translateX(100%)";
+            btn2.style.color="#FF890F";
+            btn1.style.color="#000";
+            btn3.style.color="#000";
+            content1.style.transitionDelay="0s";
+            content2.style.transitionDelay="0.3s";
+            content3.style.transitionDelay="0s";
+
+        }
+        function openIND(){
+            content1.style.transform="translateX(100%)";
+            content2.style.transform="translateX(100%)";
+            content3.style.transform="translateX(0)";
+            btn3.style.color="#1984FF";
+            btn2.style.color="#000";
+            btn1.style.color="#000";
+            content1.style.transitionDelay="0s";
+            content2.style.transitionDelay="0s";
+            content3.style.transitionDelay="0.3s";
+
+        }
+    </script>
+</body>
+</html>
