@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+    background-color: #f3f3f3;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+.carousel-caption{
+
+    bottom: 190px;
+}
+
+.carousel-caption h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+    text-shadow: 0px 5px 8px black;
+}
+.carousel-caption p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-shadow: 0px 5px 8px black;
+}
+.carousal-caption{
+    
+    opacity: 1;
+}
+/*global classes*/
+
+.font-teko{
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+.font-heading-style{
+    color: #a46843;
+    font-size: 70px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.font-family-pacifico{
+    font-family: 'pacifico';
+    color: #370d00;
+}
+
+.font-size-20{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+
+.font-size-25{
+    font-size: 25px;
+}
+
+
+/*---------section1-------------*/
+.section1{
+    margin-top: 10%;
+}
+
+/*-------------section2-------------*/
+
+.section2{
+    margin-top: 10%;
+}
+.round-image-style{
+    border: 2px solid #a46843;
+    border-radius: 10px 50px 10px;
+}
+.margin-left{
+    margin-left: 8%;
+    
+}
+
+.heading-style{
+    margin-left: 8%;
+    color: #a46843;
+    margin-top: 10%;
+}
+
+/*-------section3---------*/
+.section3{
+    margin-top: 10%;
+}
+
+.background-image-1{
+    background-image: url(buynow1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-image-2{
+    background-image: url(buynow2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg{
+    background-color: #370d00;
+    border: 1px solid transparent;
+    width: 200px;
+    padding: 10px;
+    height: 100%;
+    transition: ease-in .2s;
+    
+}
+
+
+
+.section3 .row h2{
+     color: white;
+     font-size: 40px;
+     margin-top: 20%;
+}
+.section3 p{
+    color: white;
+    font-size: 20px;
+    
+}
+.custom-button{
+    color: white;
+    border: 1px solid  #a46843;
+    background-color: #a46843;
+    margin-bottom: 20%;
+    
+    
+}
+.custom-button:hover{
+    color: white;
+    background-color: transparent;
+}
+.section3 .row{
+    position: relative;
+}
+
+/*-----------section4-----------------*/
+
+.section4{
+    margin-top: 10%;
+
+}
+
+
+.section4 img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 3px solid #370d00;
+    border-radius: 50%;
+}
+
+
+/*------------section5------------*/
+
+.section5{
+    margin-top: 10%;
+}
+
+.card-title{
+    color: #370d00;
+}
+.card-text{
+    color: #370d00;
+}
+
+.card-body{
+    background-color: #d5d2c1;
+}
+
+
+/*------------section6------------*/
+
+
+.section6{
+    margin-top: 10%;
+    
+}
+
+.section6 i{
+    padding: 0px 10px;
+}
