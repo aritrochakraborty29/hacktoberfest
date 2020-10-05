@@ -1,0 +1,38 @@
+.container {
+    overflow: scroll;
+    padding: 2rem;
+    grid-area: main;
+}
+
+.post-bookmark {
+    height: 150px;
+    margin-bottom: 1.5em;;
+}
+
+
+@media (max-width: 470px) {
+    .container {
+        padding: 2rem 0;
+    }
+
+    .card-head {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .profile-picture {
+        height: 35px;
+        width: 35px;
+    }
+
+    .reviews {
+        font-size: 0.8em;
+    }
+}
+
+/* Apply to large devices */
+@media (min-width: 1025px) {
+    .container {
+        padding: 2rem calc((100vw - 950px)/2);
+    }
+}
