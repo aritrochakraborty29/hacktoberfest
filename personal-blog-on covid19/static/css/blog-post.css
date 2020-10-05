@@ -1,0 +1,55 @@
+.container-post {
+    overflow: scroll;
+    padding: 2rem;
+    grid-area: main;
+}
+
+.bookmark {
+    font-size: 2em;
+    padding: 0 0.5em;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-header {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.post-body {
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+
+@media (max-width: 470px) {
+    .card-head {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bookmark {
+        padding: 0 0 0 0.2em;
+    }
+
+    .profile-picture {
+        height: 35px;
+        width: 35px;
+    }
+
+    .reviews {
+        font-size: 0.8em;
+    }
+}
+
+/* Apply to large devices */
+@media (min-width: 1025px) {
+    .container-post {
+        padding: 2rem calc((100vw - 950px)/2);
+    }
+}
