@@ -1,0 +1,265 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*-------------------Banner section--------------------*/
+
+#banner{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+   
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    padding-right: 50px ;
+    
+
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+.img-fluid{
+    padding-bottom: 75px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+/*---------------------------SERVICES SECTION--------------------------------*/
+
+#services{
+    padding: 80px 0;
+
+}
+
+.service-img{
+    width: 140px;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.service{
+    padding: 20px;
+}
+
+.service h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #7b1798;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #7b1798;
+    display: block;
+    margin-bottom: 40px;
+    transform: translateY(8px);
+}
+
+#services .btn-primary{
+    border-radius: 20px;
+    padding: 8px 25px;
+    border: none;
+    box-shadow: none;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+}
+
+
+/*---------------------about-us----------------------------------------*/
+
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+    list-style-type: disc;
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+
+
+
+
+/*------------------Testimonials--------------------------------*/
+
+#testimonials{
+    margin: 100px 0;
+}
+
+.testimonials{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-left: 4px solid #7b1798;
+}
+
+.testimonials img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 0 10px;
+
+}
+
+.usr-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+
+/*--------------------------------social-media--------------------------*/
+
+
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+
+}
+
+
+/*------------------------footer section----------------------*/
+
+#footer{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+}
+    
+.footer-box{
+    padding: 20px;
+
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);    
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border-radius: 0;
+    border: none;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
